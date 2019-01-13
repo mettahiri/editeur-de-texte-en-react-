@@ -1,0 +1,52 @@
+.App {
+
+  width : 90%;
+  margin : 0 auto;
+}
+#body {
+  margin-top : 20px;
+  padding:20px;
+  border: 1px solid #999;
+}
+form {
+  margin : 50px;
+
+}
+.ql-toolbar.ql-snow {
+  background: #222;
+  color : #ffffff;
+}
+.ql-fill, .ql-stroke,.ql-color-label {
+  fill:white;
+  color:white;
+}
+
+.ql-container.ql-snow{
+  background-color: #333;  
+  border: 1px solid white;
+  color:white;
+  height : 50vh;
+}
+
+.ql-snow .ql-fill,
+.ql-snow .ql-stroke.ql-fill {
+  fill: white;
+}
+
+.ql-snow .ql-picker{
+  color:white;
+}
+
+.ql-snow .ql-picker.ql-expanded .ql-picker-label .ql-stroke {
+  stroke: white;
+}
+.ql-snow .ql-toolbar.snow, .ql-snow .ql-stroke{
+  stroke:white;
+}*
+input {
+  width : 100%;
+  padding : 10px;
+  background: #000;
+  border: none;
+  color: white;
+}
